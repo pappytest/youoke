@@ -6,6 +6,17 @@ All notable changes to YouOke are listed here, newest first. The format follows 
 
 ## [1.2] - Unreleased
 
+### Added
+- **Better TV remote (D-pad) support:**
+  - An orange outline shows the selected button, card or queue item.
+  - On a TV, the outline starts on the first suggested song, and moves to the first result after a search.
+  - Pressing OK on the search box opens the on-screen keyboard.
+  - Windows (song choices, update) start with the first button selected.
+  - The **Back** button clears the search before it leaves the app.
+  - **Queue menu:** select a queued song to play it now, move it to the front, or remove it.
+  - **Media keys:** Play/Pause, Play, Pause, Next, and Fast-forward / Rewind (10 seconds). They also work in full screen without leaving it.
+  - The video view no longer takes the remote's selection away from the buttons.
+
 ### Fixed
 - The scrolling "up next" ticker no longer stays frozen at the top of the screen when you press **Next** or play another video while it is scrolling. It now hides as soon as a new song starts, and also when the queue runs out.
 

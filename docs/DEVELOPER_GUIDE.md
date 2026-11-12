@@ -212,6 +212,16 @@ All in `KaraokeScreen.kt` and `KaraokeViewModel.kt`.
 **QR code**
 - `QrCode()` draws a QR code (ZXing `QRCodeWriter`) of the remote's address on a `Canvas`. It stays visible in full screen and sits below the ticker.
 
+**TV remote (D-pad) support**
+- `Modifier.dpadFocus(shape)` (in `KaraokeScreen.kt`) draws the orange outline when an item or one of its children has focus. Use it on every button or card that should be reachable with the remote.
+- `rememberIsTv()` detects a TV. Initial focus is only forced on a TV, so phones do not pop up a keyboard.
+- `FocusRequester.requestFocusLater()` waits 150 ms and then asks for focus, because the target must be on screen first. It is used for the first suggestion / result card and for the first button of each dialog.
+- The search box opens the keyboard on OK with `onPreviewKeyEvent` and `LocalSoftwareKeyboardController`.
+- `BackHandler` in `SearchArea` clears the search before Back leaves the app.
+- The video view (`PlayerView`) has its controller and focus switched off, so it cannot take the D-pad selection from the buttons.
+- `MainActivity.dispatchKeyEvent` handles media keys first (`handleMediaKey`), then the full-screen wake logic. Seeking goes through `vm.seekBy()`, which the player reacts to in `rememberKaraokePlayer`.
+- Queue items are focusable cards that open `QueueActionsDialog` (`vm.playFromQueue`, `vm.moveToFront`, `vm.removeFromQueue`).
+
 ---
 
 ## 9. The phone remote

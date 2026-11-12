@@ -37,6 +37,7 @@
 - The search box, Pause, Next and the now-playing bar stay pinned while you scroll.
 
 **Other**
+- **Made for the TV remote:** arrow keys, OK, Back and media keys (play/pause, next, rewind, fast-forward) all work, with a clear orange outline showing what is selected.
 - Works on **Android phones, tablets and Google TV** (built-in launcher banner for TV).
 - Shows your logo as the default "video" when nothing is playing.
 - **Checks for updates** when the app opens and installs the new version if you agree.

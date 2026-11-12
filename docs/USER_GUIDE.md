@@ -13,6 +13,7 @@ How to use YouOke on a TV, tablet or phone, and how to use your phone as a remot
 8. [Video quality](#8-video-quality)
 9. [Updating the app](#9-updating-the-app)
 10. [Tips](#10-tips)
+11. [Using a TV remote (D-pad)](#11-using-a-tv-remote-d-pad)
 
 ---
 
@@ -174,3 +175,45 @@ When YouOke opens, it checks whether a newer version is available (this needs an
 - **Search tip:** include the artist for common titles (for example `Perfect Ed Sheeran`).
 - **Wrong video?** Tap another result, or search again with more words.
 - **Nothing happens when a song is chosen?** Wait a few seconds. The first song needs a moment to be prepared.
+
+---
+
+## 11. Using a TV remote (D-pad)
+
+YouOke works with the arrow keys, **OK** and **Back** buttons of a Google TV / Android TV remote. An **orange outline** shows what is selected.
+
+**Moving around**
+- The arrow keys move the outline between the search box, buttons, songs and the queue. **OK** presses the selected item.
+- When the app opens, the outline starts on the first suggested song. After you search, it jumps to the first result.
+
+**Searching**
+1. Move the outline to the search box and press **OK**. The on-screen keyboard opens.
+2. Type the song and confirm with the keyboard's search key (or select the **Search** button).
+3. The **×** button inside the search box clears the text and brings the suggestions back.
+
+**The song window**
+- Choosing a song opens **Play now / Reserve / 1st Reserve**. The outline starts on **Play now**.
+
+**The queue**
+- Select a song in the **Up next** list and press **OK** to open its menu: **Play now** (plays it immediately), **Move to front** (plays next) or **Remove**.
+
+**The Back button**
+- While there are search results (or text in the box), **Back** clears the search first. Press it again to leave the app.
+
+**Media keys** (if your remote has them)
+
+| Key | What it does |
+|---|---|
+| Play/Pause | Pauses or resumes |
+| Play, Pause | Resumes, or pauses |
+| Next | Goes to the next song in the queue |
+| Fast-forward, Rewind | Jumps 10 seconds forward or back (hold for repeated jumps) |
+
+Media keys work in full screen too, and they do not leave full screen.
+
+**Full screen**
+- Any other button press brings the normal screen back. That first press does nothing else, so you cannot skip a song by accident.
+- Volume keys always control the TV volume.
+
+**Updates**
+- If an update is offered, the outline starts on **Update**.
