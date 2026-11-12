@@ -1,6 +1,6 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
-  "apkUrl": "https://github.com/YOUR_GITHUB_NAME/youoke/releases/download/v1.0/YouOke-1.0.apk",
-  "notes": "First version."
+  "versionCode": 2,
+  "versionName": "1.1",
+  "apkUrl": "https://github.com/YOUR_GITHUB_NAME/youoke/releases/download/v1.1/YouOke-1.1.apk",
+  "notes": "Smoother video, new ticker, 10 suggested songs."
 }
