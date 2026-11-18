@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4.1",
-  "apkUrl": "https://github.com/pappytest/youoke/releases/download/1.4.1/YouOke.1.4.1.apk",
-  "notes": "Fixed: some minor issues"
+  "versionCode": 7,
+  "versionName": "1.5",
+  "apkUrl": "https://github.com/pappytest/youoke/releases/download/1.5/YouOke.1.5.apk",
+  "notes": "Update for google and android tv only"
 }  
